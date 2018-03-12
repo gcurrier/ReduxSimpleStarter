@@ -4,8 +4,8 @@ import ReactDOM from 'react-dom';
 import SearchBar from './components/search_bar';
 import VideoList from './components/video_list';
 import VideoDetail from './components/video_detail';
-import YTSearch from 'youtube-api-search';
-import YTKey from './youtube_key'; //you will need your own youtube key
+import YTSearch from 'youtube-api-search'; //installed using npm i --save youtube-api-search
+import YTKey from './youtube_key'; //you will need your own youtube key (https://console.developers.google.com)
 
 class App extends Component {
   constructor(props) {

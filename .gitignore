@@ -8,3 +8,4 @@ npm-debug.log
 /.idea
 /src/youtube_key.js
 /package-lock.json
+/docs/
